@@ -1,3 +1,23 @@
-    h1 {
-      font-family: 'PT Serif', serif;
-    }
+body {
+ margin: 0;
+ border: dashed 1px red;
+ }
+
+.wrapper {
+ margin: auto;
+ width: 80%;
+ border: dashed 1px red;
+ }
+
+.header {
+ display: flex;
+ }
+
+.logo, .menu {
+ display: inline-block;
+ border: dashed 1px red;
+ }
+
+.main-section:h1 {
+              font-family: 'PT Serif', serif;
+ }
