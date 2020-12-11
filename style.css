@@ -28,6 +28,6 @@ body {
   border: dashed 1px red;
  }
 
-.main-section:h1 {
-              font-family: 'PT Serif', serif;
- }
+ .main-section:h1 {
+               font-family: 'PT Serif', serif;
+  }
