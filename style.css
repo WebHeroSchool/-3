@@ -26,8 +26,8 @@ body {
 .menu {
   display: inline-block;
   border: dashed 1px red;
- }
+}
 
  .main-section:h1 {
-               font-family: 'PT Serif', serif;
-  }
+              font-family: 'PT Serif', serif;
+}
