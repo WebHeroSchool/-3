@@ -1,12 +1,10 @@
-body {
+ body {
   margin: 0;
-  border: dashed 1px red;
 }
 
 .wrapper {
   margin: auto;
   width: 80%;
-  border: dashed 1px red;
 }
 
 .header {
@@ -18,9 +16,8 @@ body {
 .logo {
   padding: 40px 0;
   font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
-  width: 190px;
-  height: 35px;
-  border: dashed 1px red;
+  width: 146px;
+  height: 32px;
   background: url('img/logo.svg');
 }
 
@@ -33,7 +30,11 @@ body {
   transition: opacity 0.5s;
 }
 
-.menu__item::after {
+.menu__item:last-child{
+  margin-right: 0;
+}
+
+.menu__item_active::after {
   position: absolute;
   left: 0;
   display: block;
